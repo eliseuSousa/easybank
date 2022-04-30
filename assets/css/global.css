@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root {
+  /* Primary */
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+
+  /* Neutral */
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  color: var(--white);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  padding: 3.2rem 12.8rem;
+}
+
+
+button.request {
+  color: var(--white);
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+  border: none;
+  border-radius: 3.2rem;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1.2rem 3.2rem;
+}

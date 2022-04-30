@@ -1,0 +1,21 @@
+header.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+}
+
+nav.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35rem;
+}
+
+nav.nav-bar 
+a {
+  text-decoration: none;
+  color: var(--grayish-blue);
+  font-size: 1.6rem;
+  font-weight: 400;;
+}
