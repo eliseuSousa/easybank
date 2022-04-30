@@ -168,10 +168,17 @@ div.texto {
 section.ultimos-artigos
 div.artigos
 div.artigo
+img.banner {
+  height: 14.8rem;
+}
+
+section.ultimos-artigos
+div.artigos
+div.artigo
 div.texto
 span.autor {
   color: var(--grayish-blue);
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -185,6 +192,16 @@ h3.titulo {
   font-weight: 400;
   line-height: 1.8rem;
   margin: 1.2rem 0;
+  transition: all .3s;
+}
+
+section.ultimos-artigos
+div.artigos
+div.artigo
+div.texto
+h3.titulo:hover {
+  color: var(--lime-green);
+  cursor: pointer;
 }
 
 section.ultimos-artigos

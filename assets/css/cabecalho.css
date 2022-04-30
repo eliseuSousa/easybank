@@ -10,6 +10,7 @@ nav.nav-bar {
   align-items: center;
   justify-content: space-between;
   width: 35rem;
+  position: relative;
 }
 
 nav.nav-bar 
@@ -17,5 +18,66 @@ a {
   text-decoration: none;
   color: var(--grayish-blue);
   font-size: 1.6rem;
-  font-weight: 400;;
+  font-weight: 400;
+  transition: all .1s;
+}
+
+nav.nav-bar 
+a:hover {
+  color: var(--dark-blue);
+}
+
+nav.nav-bar 
+a.home:hover::after {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 4.4rem;
+  height: .35rem;
+  content: '';
+  display: block;
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+} 
+
+nav.nav-bar 
+a.about:hover::after {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 4.33rem;
+  height: .35rem;
+  content: '';
+  display: block;
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+}
+
+nav.nav-bar 
+a.contato:hover::after {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 5.882rem;
+  height: .35rem;
+  content: '';
+  display: block;
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+}
+
+nav.nav-bar 
+a.blog:hover::after {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 3.422rem;
+  height: .35rem;
+  content: '';
+  display: block;
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+}
+
+nav.nav-bar 
+a.carreira:hover::after {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 5.9rem;
+  height: .35rem;
+  content: '';
+  display: block;
+  background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
 }
