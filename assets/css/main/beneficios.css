@@ -71,3 +71,37 @@ p.paragrafo {
   font-weight: 400;
   line-height: 1.8rem;
 }
+
+@media screen and (max-width: 425px) {
+  section.beneficios 
+  div.texto {
+    text-align: center;
+  }
+
+  section.beneficios 
+  div.texto
+  p.paragrafo {
+    width: auto;
+  }
+
+  section.beneficios
+  div.card-beneficios {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  section.beneficios
+  div.card-beneficios
+  div.beneficio {
+    align-items: center;
+    padding: 3.2rem 0;
+    width: auto;
+  }
+
+  section.beneficios
+  div.card-beneficios
+  div.beneficio:last-child {
+    padding-bottom: 0rem;
+  }
+}

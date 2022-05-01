@@ -95,6 +95,7 @@ div.mais-informacoes
 a.link:hover {
   color: var(--lime-green);
 }
+
 footer.rodape
 section.itens-rodape
 div.direito {
@@ -120,4 +121,71 @@ span.direitos {
   color: var(--grayish-blue);
   font-size: 1.4rem;
   font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  footer.rodape {
+    padding-top: 1.6rem;
+  }
+  footer.rodape
+  section.itens-rodape {
+    flex-direction: column;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo {
+    flex-direction: column;
+    height: 32.5rem;
+    justify-content: space-evenly;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo 
+  div.imagens {
+    width: 100%;
+    margin-bottom: 1.6rem;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo 
+  div.imagens
+  img.logo-rodape {
+    width: 14rem;
+    align-self: center;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo 
+  div.imagens
+  div.redes-sociais {
+    justify-content: space-around;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo 
+  div.sobre,
+  footer.rodape
+  section.itens-rodape
+  div.esquerdo 
+  div.mais-informacoes {
+    text-align: center;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.direito {
+    margin-top: 1.6rem;
+  }
+
+  footer.rodape
+  section.itens-rodape
+  div.direito
+  button.request {
+    align-self: center;
+  }
 }

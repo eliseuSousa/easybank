@@ -5,10 +5,12 @@ header.cabecalho {
   background: var(--white);
 }
 
+header.cabecalho
 button.hamburger {
   display: none;
 }
 
+header.cabecalho
 nav.nav-bar {
   display: flex;
   align-items: center;
@@ -17,6 +19,7 @@ nav.nav-bar {
   position: relative;
 }
 
+header.cabecalho
 nav.nav-bar 
 a {
   text-decoration: none;
@@ -26,11 +29,13 @@ a {
   transition: all .1s;
 }
 
+header.cabecalho
 nav.nav-bar 
 a:hover {
   color: var(--dark-blue);
 }
 
+header.cabecalho
 nav.nav-bar 
 a.home:hover::after {
   position: absolute;
@@ -42,6 +47,7 @@ a.home:hover::after {
   background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
 } 
 
+header.cabecalho
 nav.nav-bar 
 a.about:hover::after {
   position: absolute;
@@ -53,6 +59,7 @@ a.about:hover::after {
   background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
 }
 
+header.cabecalho
 nav.nav-bar 
 a.contato:hover::after {
   position: absolute;
@@ -64,6 +71,7 @@ a.contato:hover::after {
   background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
 }
 
+header.cabecalho
 nav.nav-bar 
 a.blog:hover::after {
   position: absolute;
@@ -75,6 +83,7 @@ a.blog:hover::after {
   background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
 }
 
+header.cabecalho
 nav.nav-bar 
 a.carreira:hover::after {
   position: absolute;
@@ -88,14 +97,20 @@ a.carreira:hover::after {
 
 
 @media screen and (max-width: 425px){
+  header.cabecalho {
+    padding: 1.6rem 3.2rem;
+  }
+  header.cabecalho
   nav.nav-bar {
     display: none;
   }
-
+  
+  header.cabecalho
   button.request {
     display: none;
   }
 
+  header.cabecalho
   button.hamburger {
     display: block;
     border: none;

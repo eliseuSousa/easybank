@@ -27,7 +27,7 @@ div.artigo {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  max-width: 23%;
+  width: 23%;
   background: var(--white);
   border-radius: .8rem;
 }
@@ -87,4 +87,37 @@ p.introducao {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.8rem;
+}
+
+@media screen and (max-width: 425px) {
+  section.ultimos-artigos
+  h2.titulo-section {
+    text-align: center;
+  }
+  section.ultimos-artigos
+  div.artigos {
+    flex-direction: column;
+    padding: 3.2rem 0;
+  }
+
+  section.ultimos-artigos
+  div.artigos
+  div.artigo {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  section.ultimos-artigos
+  div.artigos
+  div.artigo
+  img.banner {
+    height: auto;
+  }
+
+  section.ultimos-artigos
+  div.artigos
+  div.artigo
+  div.texto {
+    padding: 3.2rem;
+  }
 }

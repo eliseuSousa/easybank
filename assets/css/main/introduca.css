@@ -47,11 +47,17 @@ p.paragrafo {
   section.introducao {
     flex-direction: column;
     padding-top: 0rem;
+    padding-bottom: 6.4rem;
   }
-  
+
   section.introducao
   img.mockups-mobile {
     display: block;
     width: 43rem;
+  }
+
+  section.introducao 
+  div.apresentacao {
+    text-align: center;
   }
 }
