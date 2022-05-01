@@ -5,6 +5,10 @@ header.cabecalho {
   background: var(--white);
 }
 
+button.hamburger {
+  display: none;
+}
+
 nav.nav-bar {
   display: flex;
   align-items: center;
@@ -80,4 +84,21 @@ a.carreira:hover::after {
   content: '';
   display: block;
   background: linear-gradient(155deg, var(--lime-green) 16.62%, var(--bright-cyan) 85.61%);
+}
+
+
+@media screen and (max-width: 425px){
+  nav.nav-bar {
+    display: none;
+  }
+
+  button.request {
+    display: none;
+  }
+
+  button.hamburger {
+    display: block;
+    border: none;
+    background: none;
+  }
 }

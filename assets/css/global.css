@@ -40,3 +40,9 @@ button.request:hover {
   background: linear-gradient(69deg, hsla(136, 65%, 51%, 0.6) 16.62%, hsla(192, 70%, 51%, 0.6) 85.61%);
   cursor: pointer;
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 1.6rem  3.2rem;
+  }
+}
